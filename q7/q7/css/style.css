@@ -1,1 +1,38 @@
 @charset "UTF-8";
+
+.balloon {
+  position: relative;
+  padding: 20px;
+  margin: 0 auto;
+  width: 500px;
+  font-size: 16px;
+  background: #fad296;
+  border-radius: 20px;
+  line-height: 16px;
+  font-size: 16px;
+  border: solid 5px #815a0a;
+}
+
+.balloon::after,
+.balloon::before {
+  top: 100%;
+  left: 15%;
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.balloon::before {
+  border-top-color: #815a0a;
+  border-width: 25px;
+  margin-left: -25px;
+}
+
+.balloon::after {
+  border-top-color: #fad296;
+  border-width: 18px;
+  margin-left: -18px;
+}
