@@ -6,7 +6,7 @@
 .box-green {
   width: 200px;
   height: 200px;
-  background-color: #76ff826b;
+  background: #76ff826b;
   margin: 0 auto;
 }
 
@@ -65,12 +65,12 @@
 .box-blue {
   width: 200px;
   height: 200px;
-  background-color: #331aefd0;
+  background: #331aefd0;
   margin: 0 auto;
 }
 
 .change-color:hover {
-  background-color: #ff27e2c9;
+  background: #ff27e2c9;
   transition: all 1s 0s linear;
 }
 

@@ -28,34 +28,34 @@
 
 .bg-red {
   color: #fff;
-  background-color: #fd0f0fd9;
+  background: #fd0f0fd9;
 }
 
 .bg-blue {
   color: #fff;
-  background-color: #170ffdd9;
+  background: #170ffdd9;
 }
 
 .bg-green {
   color: #000;
-  background-color: #0ffd0fd9;
+  background: #0ffd0fd9;
 }
 
 .bg-red__shadow {
   color: #fff;
-  background-color: #fd0f0fd9;
+  background: #fd0f0fd9;
   box-shadow: 0 5px 0 rgba(63, 5, 5, 0.851);
 }
 
 .bg-blue__shadow {
   color: #fff;
-  background-color: #170ffdd9;
+  background: #170ffdd9;
   box-shadow: 0 5px 0 rgba(5, 13, 63, 0.851);
 }
 
 .bg-green__shadow {
   color: #000;
-  background-color: #0ffd0fd9;
+  background: #0ffd0fd9;
   box-shadow: 0 5px 0 rgba(5, 63, 5, 0.851);
 }
 
@@ -65,7 +65,7 @@
 }
 
 .double:hover {
-  background-color: #fffbef;
+  background: #fffbef;
 }
 
 .dotted {
@@ -79,11 +79,11 @@
 
 .change-bg {
   color: #0079a5f8;
-  background-color: #d0edf8;
+  background: #d0edf8;
   border: 4px dashed #67c5ff;
 }
 
 .change-bg:hover {
   color: #67c5ff;
-  background-color: #fff;
+  background: #fff;
 }
